@@ -2,6 +2,10 @@ import React from 'react'
 import './Search.css'
 export default function Search() {
   return (
-    <div>Search</div>
+    <div className='screen-container'>
+      <div className='search-body'>
+        
+      </div>
+    </div>
   )
 }
