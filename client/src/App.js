@@ -3,19 +3,20 @@ import Route from "./Route";
 import { BrowserRouter, useNavigate } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.js";
 import Footer from "./components/footer/Footer";
-import { app } from "./config/firebaseconfig.js";
-import { getAuth } from "firebase/auth";
+import Loading from "./components/loading/Loading.js";
 function App() {
+  
   
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+    
         <Route />
-        <Footer />
+     
       </BrowserRouter>
     </>
   );
 }
 
 export default App;
+
